@@ -37,8 +37,7 @@ Leveraging the `MyVariant.info` API, the pipeline enriches the data with:
 ## Prerequisites
 
 ### Bioinformatic Tools
-* **bcftools**:
-* ```bash
+* **bcftools**:```bash
   conda install -c bioconda -c conda-forge bcftools=1.20
 
 ### Python Environment
