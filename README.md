@@ -23,7 +23,7 @@ The script utilizes `cyvcf2` for fast iteration to apply the following logic:
 * **Rare Variants**: Filters for Allele Frequency (AF) $\le 0.01$.
 * **Functional Impact**: Retains only `missense` or `stop_gained` consequences.
 
-### 4. dbSNP & CADD Annotation
+### 4. dbSNP Annotation
 Leveraging the `MyVariant.info` API, the pipeline enriches the data with:
 * **Refined Gene Symbols**: Verified via dbSNP.
 * **Pathogenicity**: Putative impact and SnpEff effects.
