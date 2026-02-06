@@ -5,7 +5,7 @@
 A hybrid Python and `bcftools` pipeline designed to filter raw VCF files for rare, high-impact SNVs. This tool automates the transition from raw genomic data to a clean, sample-encoded CSV for downstream statistical analysis.
 
 
-## 🚀 Workflow Summary
+## Workflow Summary
 
 The pipeline processes genomic data through four distinct stages:
 
@@ -34,7 +34,7 @@ Leveraging the `MyVariant.info` API, the pipeline enriches the data with:
 
 ---
 
-## 🛠 Prerequisites
+## Prerequisites
 
 ### Bioinformatic Tools
 * **bcftools**: conda install -c bioconda -c conda-forge bcftools=1.20
